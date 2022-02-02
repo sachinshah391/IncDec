@@ -4,10 +4,7 @@ import Index1 from './Components/Index1';
 function App() {
   return (
     <>
-      
       <Index1 />
-
-
     </>
   );
 }

@@ -4,15 +4,11 @@ import AddIcon from '@material-ui/icons/Add';
 import RemoveIcon from '@material-ui/icons/Remove';
 
 
-
-
 const Index1 = () => {
 
     const [ivalue, setIvalue] = useState(0);
-
     const increment = () => {
         return setIvalue(ivalue + 1);
-
     }
     const decrement = () => {
 
@@ -23,10 +19,7 @@ const Index1 = () => {
         else {
             alert("value cannot be negative");
         }
-
     }
-
-
 
     return (
         <>
@@ -43,16 +36,10 @@ const Index1 = () => {
                         {/* <button type='button' onClick={decrement}>Decrement</button> */}
                         <button onClick={increment}><AddIcon/></button>
                         <button type='button' onClick={decrement}><RemoveIcon/></button>
-
                     </div>
-
-
                 </div>
             </div>
-
-
         </>
-
     );
 };
 
